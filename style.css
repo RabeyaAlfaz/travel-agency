@@ -1,0 +1,51 @@
+
+
+:root {
+    --orange: #FF5400;
+    --black:black;
+  }
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+/* Navbar style starts  */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-text{
+    display: flex;
+
+}
+.icon-text>img{
+    margin-right: 10px;
+}
+.icon-text>h2>span{
+    color:var(--orange)
+}
+/* Navbar style ends  */
+
+/* <!-- explore travel section starts --> */
+.explore-travel-container{
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* <!-- explore travel section ends --> */
+
+
+
+/* mobile responsive */
+
+@media only screen and (max-width: 600px) {
+    .explore-travel-container{
+        background-size:contain;
+    }
+  }
