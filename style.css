@@ -35,6 +35,10 @@ section{
     display: flex;
 
 }
+.icons{
+    display: flex;
+    gap: 20px;
+}
 .icon-text>img{
     margin-right: 10px;
 }
@@ -56,6 +60,8 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin:50px auto;
+
 }
 .arrow-btn-style{
     padding: 10px;; 
@@ -104,6 +110,8 @@ section{
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin:50px auto;
+
 }
 .popular-tour-details>ul>li{
 list-style:circle;
@@ -116,6 +124,8 @@ color: black;
 /* <!-- destination selects starts  --> */
 .destiny-text-container{
     text-align: center;
+    margin:50px auto;
+
 }
 .destiny-text-container>p{
     color: black;
@@ -189,6 +199,8 @@ color: black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:50px auto;
+
 }
 .choose-us-grid{
 display: grid;
@@ -215,6 +227,7 @@ width: 50%;
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin:50px auto;
 }
 #deals-grid-1,#deals-grid-3{
     display: flex;
@@ -278,11 +291,21 @@ width: 50%;
 }
 /* Deals and discount section ends  */
 
+.single-btn{
+    display: flex;
+    justify-content: center;
+    margin:50px auto;
+
+}
+.single-btn>button{
+    width: 350px;
+}
 /* <!-- subscription form section starts  --> */
 .subscribe-container{
     display: grid;
     grid-template-columns: 48% 47%;
     gap: 5%;
+    margin:50px auto;
 }
 .form-container{
     border: 2px solid var(--orange);
@@ -337,7 +360,14 @@ gap: 5px;
 
 
 /* <!-- hero travel footer starts --> */
-
+.hero-footer{
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
 /* <!-- hero travel footer ends --> */
 
 /* mobile responsive */
@@ -369,5 +399,13 @@ gap: 5px;
     .first-grid,.second-grid,.third-grid{
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+    #deals-grid-1,#deals-grid-2,#deals-grid-3{
+     justify-content: center;
+     margin: 0px;
+     padding: 0px;
+    }
+    .subscribe-container{
+        grid-template-columns: 100%;
     }
   }
