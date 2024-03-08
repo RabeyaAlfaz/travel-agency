@@ -180,6 +180,10 @@ color: black;
 /* <!-- destination selects ends  --> */
 
 /* <!-- Choose us section starts --> */
+.choose-us-text{
+    text-align: center;
+    margin-bottom: 25px;
+}
 .choose-us-container{
     display: flex;
     flex-direction: column;
@@ -207,7 +211,134 @@ width: 50%;
 /* <!-- Choose us section ends --> */
 
 /* Deals and discount section starts  */
+.deals-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#deals-grid-1,#deals-grid-3{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#deals-grid-1{
+    background-image: url(./Images/Rectangle\ 5.png);
+  
+}
+#deals-grid-2{
+    background-image: url(./Images/Rectangle\ 6.png);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#deals-grid-3{
+    background-image: url(./Images/Rectangle\ 7.png);
+}
+.deals-background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.deals-content{
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.date-and-times-container{
+    display: flex;
+    gap: 10px;
+    color: #FF5400;
+}
+.tour-deals-details{
+    display: flex;
+    flex-direction: column;
+}
+.Orange-btn{
+    background-color: var(--orange);
+    height: 52px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.Orange-btn:hover{
+    background-color: transparent;
+    border: 1px solid #FF5400;
+    color: black;
+}
 /* Deals and discount section ends  */
+
+/* <!-- subscription form section starts  --> */
+.subscribe-container{
+    display: grid;
+    grid-template-columns: 48% 47%;
+    gap: 5%;
+}
+.form-container{
+    border: 2px solid var(--orange);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.form-input-field{
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+}
+.form-input-field>input{
+    padding: 10px;
+}
+.form-btn{
+    color: #fff;
+    background-color: #FF5400;
+    border: none;
+    text-align: center;
+}
+.form-input-field>input::placeholder{
+    font-size: 1.2em;
+}
+.form-background{
+    background-image: url(./Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+}
+.colored-text{
+    background-color: #FF5400;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    height:7.5em;
+    width: 20.125em;
+    bottom: 100px;
+    right: 0;
+    transform: rotate(-45deg);
+}
+
+/* <!-- subscription form section ends  --> */
+
+
+/* <!-- hero travel footer starts --> */
+
+/* <!-- hero travel footer ends --> */
 
 /* mobile responsive */
 
